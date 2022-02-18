@@ -41,7 +41,7 @@ function Navbar() {
           </li>
           <li className = 'nav-item'>
             <Link to='/form' className='nav-links'>
-            Form
+            Questionar
             </Link>
           </li>
         </ul>
