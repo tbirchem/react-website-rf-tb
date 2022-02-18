@@ -4,52 +4,50 @@ import './Navbar.css';
 import { Button } from './Button';
 
 function Navbar() {
-  const [click, setClick] = useState(false);
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [button, setButton] = useState(true);
 
   const handleClick = () => {
-    console.log('i was clickeds')
-    console.log(click)
-    setClick(!click);
-    console.log(click)
+    console.log('i was clicked')
+    setMobileMenuOpen(!mobileMenuOpen);
   }
-  const closeMobileMenu = () => setClick();
+  const closeMobileMenu = () => setMobileMenuOpen(false);
 
    return(
-    <>
+    <div>
     <nav className = "navbar">
-      <div className = "navbar-container" onClick={closeMobileMenu}>
+      <div className = "navbar-container">
         <Link to="/" className="navbar-logo">
           Ring Finder <i className='far fa-gem'/>
         </Link>
         <div className='menu-icon' onClick={handleClick}>
-          <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
+          <i className={mobileMenuOpen ? 'fas fa-times' : 'fas fa-bars'} />
           </div>
-          <ul className={click ? 'nav-menu active' : 'nav-menu'}>
+          <ul className={mobileMenuOpen ? 'nav-menu active' : 'nav-menu'} onClick={closeMobileMenu} >
           <li className = 'nav-item'>
-            <Link to='/cut' className='nav-links' onClick={closeMobileMenu}>
+            <Link to='/cut' className='nav-links' >
             Cut
             </Link>
           </li>
           <li className = 'nav-item'>
-            <Link to='/color' className='nav-links' onClick={closeMobileMenu}>
+            <Link to='/color' className='nav-links' >
             Color
             </Link>
           </li>
           <li className = 'nav-item'>
-            <Link to='/clarity' className='nav-links' onClick={closeMobileMenu}>
+            <Link to='/clarity' className='nav-links'>
             Clarity
             </Link>
           </li>
           <li className = 'nav-item'>
-            <Link to='/form' className='nav-links' onClick={closeMobileMenu}>
+            <Link to='/form' className='nav-links'>
             Form
             </Link>
           </li>
         </ul>
       </div>
     </nav>
-    </>
+    </div>
   );
 }
 
