@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../App.css';
-import VisualSection from '../visualSection';
+import VisualSection from '../VisualSection';
 import Cards from '../Cards';
 
 function App() {
