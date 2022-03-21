@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+/* import { Link } from 'react-router-dom'*/
 
 
 function Cards() {
@@ -9,7 +9,7 @@ function Cards() {
       <div className="cards_container">
         <div className="cards_wrapper">
           <ul className="cards_items" >
-          
+
           </ul>
         </div>
       </div>
