@@ -1,8 +1,8 @@
-Import React from 'react'
+import React from 'react'
 import { Button } from './Button';
 
 function VisualSection() {
-  return {
+  return (
     <div className='visual-container'>
       <video src="/videos/video-2.mp4" autoPlay loop muted/>
       <h1> ADVENTURE AWAITS</h1>
@@ -24,8 +24,7 @@ function VisualSection() {
         </Button>
     </div>
   </div>
-
-  }
+  )
 }
 
 export default VisualSection

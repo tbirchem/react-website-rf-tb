@@ -1,9 +1,10 @@
 import React from 'react';
-import '../../App.css';
-import VisualSection from '../VisualSection';
-import Cards from '../Cards';
+import '../App.css';
+import VisualSection from './VisualSection';
+import Cards from './Cards';
+import '../App.js';
 
-function App() {
+function Home() {
   return (
     <div>
       <VisualSection />
