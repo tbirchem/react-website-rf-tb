@@ -1,5 +1,5 @@
 .cards {
-  padding: 4rem;
+  padding: 5rem;
   background: #fff;
 }
 
@@ -12,8 +12,9 @@ h1 {
   flex-flow: column;
   align-items: center;
   max-width: 1120px;
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
+
 }
 
 .cards__wrapper {
@@ -26,14 +27,14 @@ h1 {
 }
 
 .cards__item {
-  display: flex;
+  display: grid;
   flex: 1;
-  margin: 0 1rem;
+  margin: 0 2rem;
   border-radius: 10px;
 }
 
 .cards__item__link {
-  display: flex;
+  display: grid;
   flex-flow: column;
   width: 100%;
   box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
@@ -62,11 +63,11 @@ h1 {
   bottom: 0;
   margin-left: 10px;
   padding: 6px 8px;
-  max-width: calc((100%) - 60px);
-  font-size: 12px;
+  max-width: calc((100%) - 10px);
+  font-size: 20px;
   font-weight: 700;
   color: #fff;
-  background-color: #1f98f4;
+  background-color: #DFB722;
   box-sizing: border-box;
 }
 
@@ -107,7 +108,7 @@ h1 {
 
 @media only screen and (min-width: 1024px) {
   .cards__items {
-    display: flex;
+    display: inline-grid;
   }
 }
 
