@@ -40,7 +40,7 @@ function Navbar() {
             </Link>
           </li>
           <li className = 'nav-item'>
-            <Link to='/form' className='nav-links'>
+            <Link to='/Questionnaire' className='nav-links'>
             Questionnaire
             </Link>
           </li>
