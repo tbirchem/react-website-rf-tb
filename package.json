@@ -4,7 +4,6 @@
   "private": true,
   "dependencies": {
     "babel-core": "^6.26.3",
-    "babel-loader": "^8.1.0",
     "babel-preset-env": "^1.7.0",
     "@heroicons/react": "^1.0.6",
     "@testing-library/jest-dom": "^5.16.1",
