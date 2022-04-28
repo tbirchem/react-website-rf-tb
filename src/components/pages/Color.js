@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import '../../App.css'
 import "./Styles.css";
 
@@ -28,6 +29,13 @@ export default function Color() {
       of K or lower, it starts to become very noticable to eye and the diamond becomes much less apealing to the eye.</p>
       <p class="lead">Color on a scale - </p>
       <img src="https://www.pricescope.com/wp-content/uploads/2020/12/pricescope-education-103.1-diamond-color-chart-ss-1024x576.jpg" alt="" />
+      <br>
+      </br>
+      <footer class="footer">
+
+        <Link to='/' > --- <i className='far fa-gem'/> --- </Link>
+
+      </footer>
     </div>
   </div>
 </div>

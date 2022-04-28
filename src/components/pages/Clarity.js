@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import '../../App.css'
 import "./Styles.css";
 
@@ -23,6 +24,13 @@ export default function Clarity() {
       will not be able to see with your naked eye.</p>
       <p class="lead">Clarity on a scale - </p>
       <img src="https://loversrockdiamonds.co.uk/uploads/backend/education/897c00bdc79f192be8d5da0407e20a72.png" alt="" />
+      <br>
+      </br>
+      <footer class="footer">
+
+        <Link to='/' > --- <i className='far fa-gem'/> --- </Link>
+
+      </footer>
     </div>
   </div>
 </div>

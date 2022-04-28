@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import '../../App.css'
 import "./Styles.css";
 
@@ -14,8 +15,8 @@ export default function Color() {
       <p class="lead">3 types of cuts -</p>
       <p>When it comes to cuts, you have three options, shallow, ideal & deep. The cut that you chose
       will determine the wow factor of your diamond. Even a diamond with a perfect clarity grade can
-      look dull if it is cut too deep or shallow. While there are only 3 options, there are mulitple instances
-      of each option, some better than others and that is what you have to look for. For your diamond to have
+      look dull if it is cut too deep or shallow. While there are only 3 types of cuts, there are mulitple instances
+      of each cut (see image below), some better than others and that is what you have to look for. For your diamond to have
       that wow factor everyone is looking for, you don't have to pay for the ideal cut, but you can not settle for a
       cut that is too shallow or deep.
       </p>
@@ -28,6 +29,13 @@ export default function Color() {
       </blockquote>
       <p class="lead">Color on a scale -</p>
       <img src="https://abluediamond.com/wp-content/uploads/2016/06/Diamond-Cut-4cs-by-GIA-Diamond-Education-1.png" alt="" />
+      <br>
+      </br>
+      <footer class="footer">
+
+        <Link to='/' > --- <i className='far fa-gem'/> --- </Link>
+
+      </footer>
     </div>
   </div>
 </div>
