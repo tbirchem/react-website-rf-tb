@@ -3,5 +3,5 @@ import '../../App.css'
 
 
 export default function Questionnaire() {
-  return <h1 className='questionnaire'>Questionnaire</h1>;
+  return <h1 className='questionnaire'>Coming Soon!</h1>;
 }
