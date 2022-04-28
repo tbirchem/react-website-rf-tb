@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import '../../App.css'
-import "/Users/taylorbirchem/react-website-rf-tb/src/components/pages/Questionnair.css";
+import "./Styles2.css";
 
 
 
