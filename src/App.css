@@ -6,10 +6,9 @@
 }
 
 .home,
-.services,
-.products,
 
-.services {
+
+.color {
   background-image: url('/images/img-2.jpg');
   background-position: center;
   background-size: cover;
@@ -18,7 +17,7 @@
   font-size: 100px;
 }
 
-.products {
+.cut {
   background-image: url('/images/img-1.jpg');
   background-position: center;
   background-size: fill;
