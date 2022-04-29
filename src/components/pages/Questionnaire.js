@@ -90,6 +90,5 @@ export default function Questionnair() {
     </div>
   </div>
 </div>
-
    );
 }

@@ -12,7 +12,8 @@ function HeroSection() {
         <Button
           className='btns'
           buttonStyle='btn--outline'
-          buttonSize='btn--large'>
+          buttonSize='btn--large'
+          path='/questionnaire'>
           GET STARTED
         </Button>
       </div>
