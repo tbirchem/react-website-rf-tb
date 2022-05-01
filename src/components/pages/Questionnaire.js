@@ -1,9 +1,27 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
+//import ReactDOM from 'react-dom';
 import '../../App.css'
 import "./Styles2.css";
 
-
+// class RingForm extends React.Component {
+//   constructor(props) {
+//     super(props);
+//     this.state = {value: '$0-1,999'};
+//
+//     this.handleChange = this.handleChange.bind(this);
+//     this.handleSubmit = this.handleSubmit.bind(this);
+//   }
+//
+//   handleChange(event) {
+//     this.setState({value: event.target.value});
+//   }
+//
+//   handleSubmit(event) {
+//     alert('Your favorite flavor is: ' + this.state.value);
+//     event.preventDefault();
+//   }
+// }
 
 export default function Questionnair() {
   return (
@@ -29,45 +47,45 @@ export default function Questionnair() {
   </label>
   <label class="block mt-4">
     <span class="text-gray-700">Budget</span>
-     <select class="form-select mt-1 block w-full" >
+     <select class="form-select mt-1 block w-full" /* class={this.state.value} onChange={this.handleChange }*/>
         <option>-</option>
-        <option>$0-1,999</option>
-        <option>$2,000-4,999</option>
-        <option>$5,000-9,999</option>
-        <option>$10,000+</option>
+        <option value='$0-1,999'>$0-1,999</option>
+        <option value='$2,000-4,999'>$2,000-4,999</option>
+        <option value='$5,000-9,999'>$5,000-9,999</option>
+        <option value='$10,000+'>$10,000+</option>
      </select>
   </label>
   <label class="block mt-4">
     <span class="text-gray-700">Grade of cut you are looking for?</span>
      <select class="form-select mt-1 block w-full">
         <option>-</option>
-        <option>Excellent</option>
-        <option>Very Good</option>
-        <option>Good</option>
-        <option>Fair</option>
-        <option>Poor</option>
+        <option value='Excellent'>Excellent</option>
+        <option value='Very Good'>Very Good</option>
+        <option value='Good'>Good</option>
+        <option value='Fair'>Fair</option>
+        <option value='Poor'>Poor</option>
      </select>
   </label>
   <label class="block mt-4">
     <span class="text-gray-700">What color range are you looking for?</span>
      <select class="form-select mt-1 block w-full">
         <option>-</option>
-        <option>Colorless</option>
-        <option>Near-Colorless</option>
-        <option>Faint</option>
-        <option>Very Light</option>
-        <option>Light</option>
+        <option value='Colorless'>Colorless</option>
+        <option value='Near-Colorless'>Near-Colorless</option>
+        <option value='Faint'>Faint</option>
+        <option value='Very Light'>Very Light</option>
+        <option value='Light'>Light</option>
      </select>
   </label>
   <label class="block mt-4">
     <span class="text-gray-700">What clarity range are you looking for?</span>
      <select class="form-select mt-1 block w-full">
         <option>-</option>
-        <option>Colorless</option>
-        <option>FL-IF</option>
-        <option>VVS1-VVS2</option>
-        <option>SI1-SI2</option>
-        <option>I1-I3</option>
+        <option value='Colorless'>Colorless</option>
+        <option value='FL-IF'>FL-IF</option>
+        <option value='VVS1-VVS2'>VVS1-VVS2</option>
+        <option value='SI1-SI2'>SI1-SI2</option>
+        <option value='I1-I3'>I1-I3</option>
      </select>
   </label>
   <br></br>
@@ -83,12 +101,15 @@ export default function Questionnair() {
   <br></br>
   <br></br>
       <footer class="footer">
-
         <Link to='/' > --- <i className='far fa-gem'/> --- </Link>
-
       </footer>
     </div>
   </div>
 </div>
    );
 }
+
+// ReactDOM.render(
+//   <RingForm/>,
+//   document.getElementById('root')
+// );

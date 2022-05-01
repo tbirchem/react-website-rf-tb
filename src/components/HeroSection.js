@@ -1,20 +1,23 @@
 import React from 'react';
 import '../App.css';
 import { Button } from './Button';
+import { Link } from 'react-router-dom';
 import './HeroSection.css';
+
 
 function HeroSection() {
   return (
     <div className='hero-container'>
-      <video src='/videos/diamondVideo.mp4' autoPlay loop muted />
       <h1>FIND YOUR RING</h1>
       <div className='hero-btns'>
         <Button
           className='btns'
           buttonStyle='btn--outline'
-          buttonSize='btn--large'
-          path='/questionnaire'>
+          buttonSize='btn--small'
+          >
+          <Link to='/questionnaire'>
           GET STARTED
+          </Link>
         </Button>
       </div>
     </div>
