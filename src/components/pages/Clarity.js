@@ -16,12 +16,13 @@ export default function Clarity() {
       <p>Clarity refers to the purity of the stone, the purity of the diamond is determined by the blemishes the diamond does or does not have.</p>
       <p class="lead">How to approach clarity in a diamond - </p>
       <p>Yes, clarity is a very important factor to consider when purchasing a ring. Although it is
-      important to note that at a certian point with clarity, you are paying for something that you
+      important to note that at a certain point with clarity, you are paying for something that you
       can't even see with a naked eye. Instead you can save that extra money, and spend it on
-      other factors that are more noticable such as color,cut and the carrot!
+      other factors that are more noticeable such as color,cut and the carrot!
       If you get any clarity above S12 you will not be able to see any of the impurities with
       your naked eye. Although, if you decided to get anything above VS2, you will be overpaying for something that you
-      will not be able to see with your naked eye.</p>
+      will not be able to see with your naked eye.
+      </p>
       <p class="lead">Clarity on a scale - </p>
       <img src="https://loversrockdiamonds.co.uk/uploads/backend/education/897c00bdc79f192be8d5da0407e20a72.png" alt="" />
       <br>

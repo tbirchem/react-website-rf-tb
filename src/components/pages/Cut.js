@@ -15,9 +15,9 @@ export default function Color() {
       <p class="lead">3 types of cuts -</p>
       <p>When it comes to cuts, you have three options, shallow, ideal & deep. The cut that you chose
       will determine the wow factor of your diamond. Even a diamond with a perfect clarity grade can
-      look dull if it is cut too deep or shallow. While there are only 3 types of cuts, there are mulitple instances
+      look dull if it is cut too deep or shallow. While there are only 3 types of cuts, there are multiple instances
       of each cut (see image below), some better than others and that is what you have to look for. For your diamond to have
-      that wow factor everyone is looking for, you don't have to pay for the ideal cut, but you can not settle for a
+      that wow factor everyone is looking for, you don't have to pay for the ideal cut, but you cannot settle for a
       cut that is too shallow or deep.
       </p>
       <p class="lead">From Blue Nile -</p>
