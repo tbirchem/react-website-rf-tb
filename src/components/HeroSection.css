@@ -39,7 +39,8 @@ video {
 
 @media screen and (max-width: 960px) {
   .hero-container {
-    background: url('https://images.unsplash.com/photo-1577947744466-acdebeff32d5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmxhY2slMjBhbmQlMjB3aGl0ZSUyMHdlZGRpbmclMjBwaG90b2dyYXBoeXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=900&q=60') center center/scale-down;
+    background: url('https://images.unsplash.com/photo-1577947744466-acdebeff32d5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmxhY2slMjBhbmQlMjB3aGl0ZSUyMHdlZGRpbmclMjBwaG90b2dyYXBoeXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=900&q=60') /no-repeat;
+    background-position: 30% 60%;
   }
 }
 
