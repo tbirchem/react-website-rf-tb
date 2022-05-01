@@ -8,11 +8,13 @@ import Cut from './components/pages/Cut'
 import Color from './components/pages/Color'
 import Clarity from './components/pages/Clarity'
 import Questionnaire from './components/pages/Questionnaire'
+import ScrollToTop from './components/ScrollToTop.js'
 
 function App() {
   return (
   <div>
     <Router>
+      <ScrollToTop/>
       <Navbar/>
         <Switch>
           <Route path='/' exact component={Home}/>

@@ -10,7 +10,7 @@ function Home() {
       <HeroSection />
       <Cards />
       <footer class="footer">
-        <Link to='/' > --- <i className='far fa-gem'/> --- </Link>
+      <Link to='/'> --- <i className='far fa-gem'/> --- </Link>
       </footer>
       <br></br>
       <br></br>

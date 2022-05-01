@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-//import ReactDOM from 'react-dom';
+// import ReactDOM from 'react-dom';
 import '../../App.css'
 import "./Styles2.css";
 
@@ -23,7 +23,7 @@ import "./Styles2.css";
 //   }
 // }
 
-export default function Questionnair() {
+export default function Questionnair(RingForm) {
   return (
 <div class="relative flex min-h-screen flex-col justify-center overflow-hidden bg-gray-50 py-8 lg:py-12">
   <div class="relative w-full bg-white px-6 py-12 shadow-xl shadow-slate-700/10 ring-1 ring-gray-900/5 md:mx-auto md:max-w-3xl lg:max-w-4xl lg:pt-16 lg:pb-28">
@@ -47,7 +47,7 @@ export default function Questionnair() {
   </label>
   <label class="block mt-4">
     <span class="text-gray-700">Budget</span>
-     <select class="form-select mt-1 block w-full" /* class={this.state.value} onChange={this.handleChange }*/>
+     <select class="form-select mt-1 block w-full" /*class={this.state.value} onChange={this.handleChange }*/>
         <option>-</option>
         <option value='$0-1,999'>$0-1,999</option>
         <option value='$2,000-4,999'>$2,000-4,999</option>
@@ -96,7 +96,7 @@ export default function Questionnair() {
           </label>
         </div>
   <div>
-    <button type="submit" class="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-black bg-blue-200 hover:bg-blue-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-400">Submit</button>
+    <button type="submit" value='submit' class="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-black bg-blue-200 hover:bg-blue-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-400">Submit</button>
   </div>
   <br></br>
   <br></br>
@@ -111,5 +111,5 @@ export default function Questionnair() {
 
 // ReactDOM.render(
 //   <RingForm/>,
-//   document.getElementById('root')
+//   document.getElementById('')
 // );
