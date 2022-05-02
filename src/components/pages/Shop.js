@@ -18,7 +18,7 @@ export default function Shop() {
         </p>
         <p class="lead">Recommended Stores-</p>
         <p class="font-serif">
-        <a href="https://www.bluenile.com/engagement-rings">Kay Jewlers</a> -
+        <a href="https://www.bluenile.com/engagement-rings">Blue Nile</a> -
         </p>
         <p class='font-serif'>
         Blue Nile played a large role in paving the way for online ring shopping, and there is a reason
