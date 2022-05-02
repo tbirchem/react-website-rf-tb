@@ -44,6 +44,11 @@ function Navbar() {
             Questionnaire
             </Link>
           </li>
+          <li className = 'nav-item'>
+            <Link to='/Shop' className='nav-links'>
+            Shop
+            </Link>
+          </li>
         </ul>
       </div>
     </nav>

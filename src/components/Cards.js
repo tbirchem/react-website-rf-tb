@@ -11,24 +11,24 @@ function Cards() {
           <ul className="cards__items" >
             <CardItem
             src="images/DiamondCut.jpg"
-            text="What cut is right for you?"
+            text="How can the cut effect a diamond?"
             label="cut"
             path="/cut"/>
             <CardItem
             src="images/DiamondColor.jpg"
-            text="What does color mean when it comes to a diamond?"
+            text="Color, and what it means in a diamond!"
             label="color"
             path="/color"/>
-          </ul>
-          <ul className="cards__items">
+            </ul>
+            <ul className="cards__items">
             <CardItem
             src="images/DiamondClarity.jpg"
-            text="How much does diamond clarity matter?"
+            text="Diamond clarity and why it matters"
             label="clarity"
             path="/clarity"/>
             <CardItem
             src="images/Questionnaire.jpg"
-            text="Fill out a questionnaire to see what ring suits you best!"
+            text="Fill out a questionnaire to find your ring!"
             label="questionnaire"
             path="/questionnaire"/>
           </ul>

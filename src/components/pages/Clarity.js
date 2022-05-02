@@ -13,9 +13,9 @@ export default function Clarity() {
     <h1>What Exactly is Clarity & How Much Does it Matter?</h1>
     <br></br>
       <p class="lead">Clarity in short - </p>
-      <p>Clarity refers to the purity of the stone, the purity of the diamond is determined by the blemishes the diamond does or does not have.</p>
+      <p class="font-serif">Clarity refers to the purity of the stone, the purity of the diamond is determined by the blemishes the diamond does or does not have.</p>
       <p class="lead">How to approach clarity in a diamond - </p>
-      <p>Yes, clarity is a very important factor to consider when purchasing a ring. Although it is
+      <p class="font-serif">Yes, clarity is a very important factor to consider when purchasing a ring. Although it is
       important to note that at a certain point with clarity, you are paying for something that you
       can't even see with a naked eye. Instead you can save that extra money, and spend it on
       other factors that are more noticeable such as color,cut and the carrot!

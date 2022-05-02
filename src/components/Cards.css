@@ -16,23 +16,31 @@ h1 {
   max-width: 1120px;
   width: 100%;
   margin: 0 auto;
+  justify-content: center;
+  flex-direction: row;
 
 }
 
 .cards__wrapper {
   position: relative;
   margin: 50px 0 45px;
+  justify-content: center;
+  flex-direction: row;
 }
 
 .cards__items {
   margin-bottom: 24px;
+  justify-content: center;
+  flex-direction: row;
 }
 
 .cards__item {
-  display: grid;
-  flex: 1;
+  display: inline-grid;
+  flex: 3;
   margin: 0 2rem;
   border-radius: 10px;
+  justify-content: center;
+  flex-direction: row;
 }
 
 .cards__item__link {

@@ -13,7 +13,7 @@ export default function Color() {
     <h1 class= "" > The Cut of a Diamond </h1>
     <br></br>
       <p class="lead">3 types of cuts -</p>
-      <p>When it comes to cuts, you have three options, shallow, ideal & deep. The cut that you chose
+      <p class="font-serif">When it comes to cuts, you have three options, shallow, ideal & deep. The cut that you chose
       will determine the wow factor of your diamond. Even a diamond with a perfect clarity grade can
       look dull if it is cut too deep or shallow. While there are only 3 types of cuts, there are multiple instances
       of each cut (see image below), some better than others and that is what you have to look for. For your diamond to have
@@ -22,7 +22,7 @@ export default function Color() {
       </p>
       <p class="lead">From Blue Nile -</p>
       <blockquote>
-      <p>A diamond’s cut refers to how well-proportioned the dimensions of a diamond are, and how these surfaces,
+      <p class="font-serif">A diamond’s cut refers to how well-proportioned the dimensions of a diamond are, and how these surfaces,
       or facets, are positioned to create sparkle and brilliance. For example, what is the ratio of the diamond’s
       diameter in comparison to its depth? These small, yet essential, factors determine the diamond’s beauty and price.
       </p>

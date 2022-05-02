@@ -33,12 +33,12 @@ export default function Questionnair(RingForm) {
     <h1 class= "" > Find Your Perfect <i className='far fa-gem'/></h1>
     <br></br>
     <label class="block">
-      <span class="text-gray-700">Name</span>
-      <input class="form-input mt-1 block w-full" placeholder="Please enter your full name"></input>
+      <span class="font-serif text-gray-700">Name</span>
+      <input class="form-input mt-1 block w-full text-gray-900" placeholder="Please enter your full name"></input>
     </label>
     <br></br>
   <label class="block mt-4">
-    <span class="text-gray-700">First off...are you sure you're ready for Marriage? (; </span>
+    <span class="font-serif text-gray-700">First off...are you sure you're ready for Marriage? (; </span>
      <select class="form-select mt-1 block w-full">
         <option>-</option>
         <option>Yes!</option>
@@ -46,7 +46,7 @@ export default function Questionnair(RingForm) {
      </select>
   </label>
   <label class="block mt-4">
-    <span class="text-gray-700">Budget</span>
+    <span class="font-serif text-gray-700">Budget</span>
      <select class="form-select mt-1 block w-full" /*class={this.state.value} onChange={this.handleChange }*/>
         <option>-</option>
         <option value='$0-1,999'>$0-1,999</option>
@@ -56,7 +56,7 @@ export default function Questionnair(RingForm) {
      </select>
   </label>
   <label class="block mt-4">
-    <span class="text-gray-700">Grade of cut you are looking for?</span>
+    <span class="font-serif text-gray-700">Grade of cut you are looking for?</span>
      <select class="form-select mt-1 block w-full">
         <option>-</option>
         <option value='Excellent'>Excellent</option>
@@ -67,7 +67,7 @@ export default function Questionnair(RingForm) {
      </select>
   </label>
   <label class="block mt-4">
-    <span class="text-gray-700">What color range are you looking for?</span>
+    <span class="font-serif text-gray-700">What color range are you looking for?</span>
      <select class="form-select mt-1 block w-full">
         <option>-</option>
         <option value='Colorless'>Colorless</option>
@@ -78,7 +78,7 @@ export default function Questionnair(RingForm) {
      </select>
   </label>
   <label class="block mt-4">
-    <span class="text-gray-700">What clarity range are you looking for?</span>
+    <span class="font-serif text-gray-700">What clarity range are you looking for?</span>
      <select class="form-select mt-1 block w-full">
         <option>-</option>
         <option value='Colorless'>Colorless</option>
@@ -91,12 +91,12 @@ export default function Questionnair(RingForm) {
   <br></br>
   <div class="flex items-center">
     <input id="terms-and-privacy" name="terms-and-privacy" type="checkbox" class="" />
-      <label for="terms-and-privacy" class="ml-2 block text-sm text-gray-900">
+      <label for="terms-and-privacy" class="ml-2 block text-gray-700 font-serif">
       <p> I agree to getting married </p>
           </label>
         </div>
   <div>
-    <button type="submit" value='submit' class="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-black bg-blue-200 hover:bg-blue-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-400">Submit</button>
+    <button type="submit" value='submit' class="font-serif w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm text-black bg-blue-200 hover:bg-blue-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-400">Submit</button>
   </div>
   <br></br>
   <br></br>
