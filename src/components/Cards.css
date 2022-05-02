@@ -37,7 +37,7 @@ h1 {
 
 .cards__item {
   display: inline-grid;
-  flex: 3;
+  flex: 1;
   margin: 0 2rem;
   border-radius: 10px;
   justify-content: center;
