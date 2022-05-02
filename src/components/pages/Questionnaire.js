@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 // import ReactDOM from 'react-dom';
 import '../../App.css'
-import "./Styles2.css";
+import "./Questionnaire.css";
 
 // class RingForm extends React.Component {
 //   constructor(props) {
