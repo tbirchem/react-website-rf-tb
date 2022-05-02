@@ -27,9 +27,9 @@ export default function Clarity() {
       <img src="https://loversrockdiamonds.co.uk/uploads/backend/education/897c00bdc79f192be8d5da0407e20a72.png" alt="" />
       <br>
       </br>
-      <footer class="footer">
+      <footer class="text-xl">
 
-        <Link to='/' > --- <i className='far fa-gem'/> --- </Link>
+        <Link to='/clarity' onClick={() => window.scrollTo(0, 0)}>T<i className='far fa-gem'/>P</Link>
 
       </footer>
     </div>

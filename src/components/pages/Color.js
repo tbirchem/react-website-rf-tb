@@ -33,9 +33,9 @@ export default function Color() {
       <img src="https://www.pricescope.com/wp-content/uploads/2020/12/pricescope-education-103.1-diamond-color-chart-ss-1024x576.jpg" alt="" />
       <br>
       </br>
-      <footer class="footer">
+      <footer class="text-xl">
 
-        <Link to='/' > --- <i className='far fa-gem'/> --- </Link>
+        <Link to='/color' onClick={() => window.scrollTo(0, 0)}><i className='far fa-gem'/></Link>
 
       </footer>
     </div>

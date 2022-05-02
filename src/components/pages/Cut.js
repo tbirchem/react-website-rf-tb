@@ -31,9 +31,9 @@ export default function Color() {
       <img src="https://abluediamond.com/wp-content/uploads/2016/06/Diamond-Cut-4cs-by-GIA-Diamond-Education-1.png" alt="" />
       <br>
       </br>
-      <footer class="footer">
+      <footer class="text-xl">
 
-        <Link to='/' > --- <i className='far fa-gem'/> --- </Link>
+        <Link to='/cut' onClick={() => window.scrollTo(0, 0)} ><i className='far fa-gem'/></Link>
 
       </footer>
     </div>

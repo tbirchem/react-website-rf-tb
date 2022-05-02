@@ -100,8 +100,8 @@ export default function Questionnair(RingForm) {
   </div>
   <br></br>
   <br></br>
-      <footer class="footer">
-        <Link to='/' > --- <i className='far fa-gem'/> --- </Link>
+      <footer class="text-xl">
+        <Link to='/Questionnaire' onClick={() => window.scrollTo(0, 0)} ><i className='far fa-gem'/></Link>
       </footer>
     </div>
   </div>
