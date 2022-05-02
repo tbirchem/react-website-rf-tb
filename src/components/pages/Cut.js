@@ -27,7 +27,7 @@ export default function Color() {
       diameter in comparison to its depth? These small, yet essential, factors determine the diamond’s beauty and price.
       </p>
       </blockquote>
-      <p class="lead">Color on a scale -</p>
+      <p class="lead">Cut on a scale -</p>
       <img src="https://abluediamond.com/wp-content/uploads/2016/06/Diamond-Cut-4cs-by-GIA-Diamond-Education-1.png" alt="" />
       <br>
       </br>
