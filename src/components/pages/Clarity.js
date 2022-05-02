@@ -29,7 +29,7 @@ export default function Clarity() {
       </br>
       <footer class="text-xl">
 
-        <Link to='/clarity' onClick={() => window.scrollTo(0, 0)}>T<i className='far fa-gem'/>P</Link>
+        <Link to='/clarity' onClick={() => window.scrollTo(0, 0)}><i className='far fa-gem'/></Link>
 
       </footer>
     </div>
