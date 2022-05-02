@@ -27,10 +27,15 @@ function Cards() {
             label="clarity"
             path="/clarity"/>
             <CardItem
-            src="images/Questionnaire.jpg"
+            src="images/form.png"
             text="Fill out a questionnaire to find your ring!"
             label="questionnaire"
             path="/questionnaire"/>
+            <CardItem
+            src="images/Questionnaire.jpg"
+            text="Once you're an expert, pick out a ring!"
+            label="shop"
+            path="/shop"/>
           </ul>
         </div>
       </div>
