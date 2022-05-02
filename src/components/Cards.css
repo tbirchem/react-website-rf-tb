@@ -77,8 +77,8 @@ h1 {
   max-width: calc((100%) - 10px);
   font-size: 20px;
   font-weight: 700;
-  color: #fff;
-  background-color: #837D82;
+  color: #000000;
+  background-color: #fff;
   box-sizing: border-box;
 }
 
