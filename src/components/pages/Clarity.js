@@ -23,7 +23,7 @@ export default function Clarity() {
       your naked eye. Although, if you decided to get anything above VS2, you will be overpaying for something that you
       will not be able to see with your naked eye.
       </p>
-      <p class="lead">Clarity on a scale - </p>
+      <p class="lead">Clarity on a scale test - </p>
       <img src="https://loversrockdiamonds.co.uk/uploads/backend/education/897c00bdc79f192be8d5da0407e20a72.png" alt="" />
       <br>
       </br>
