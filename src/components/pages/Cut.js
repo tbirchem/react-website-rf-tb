@@ -78,8 +78,7 @@ const Cut = () => {
                     <div className="mx-auto max-w-prose lg:text-lg">
                     </div>
                     <div className="prose prose-slate mx-auto mt-8 lg:prose-lg">
-                        <h1 className="bg-clip-text text-transparent from-blue-300 to-pink-300 bg-gradient-to-r"> Let us know what you
-                            think the Gender is! </h1>
+                        <h1 className="bg-clip-text text-transparent from-blue-300 to-pink-300 bg-gradient-to-r">  What Will the Gender Be!?</h1>
                         <Card.Group doubling itemsPerRow={2} stackable>
                             {_.map(cards, (card) => (
                                 <Card key={card.header}>
