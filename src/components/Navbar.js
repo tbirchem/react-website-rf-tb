@@ -18,7 +18,7 @@ function Navbar() {
     <nav className = "navbar">
       <div className = "navbar-container">
         <Link to="/" className="navbar-logo">
-          Ring Finder <i className='far fa-gem'/>
+          Reveal Party!
         </Link>
         <div className='menu-icon' onClick={handleClick}>
           <i className={mobileMenuOpen ? 'fas fa-times' : 'fas fa-bars'} />
@@ -26,27 +26,17 @@ function Navbar() {
           <ul className={mobileMenuOpen ? 'nav-menu active' : 'nav-menu'} onClick={closeMobileMenu} >
           <li className = 'nav-item'>
             <Link to='/cut' className='nav-links' >
-            Cut
+            Poll!
             </Link>
           </li>
           <li className = 'nav-item'>
             <Link to='/color' className='nav-links' >
-            Color
+            Leave a note
             </Link>
           </li>
           <li className = 'nav-item'>
             <Link to='/clarity' className='nav-links'>
-            Clarity
-            </Link>
-          </li>
-          <li className = 'nav-item'>
-            <Link to='/Questionnaire' className='nav-links'>
-            Questionnaire
-            </Link>
-          </li>
-          <li className = 'nav-item'>
-            <Link to='/Shop' className='nav-links'>
-            Shop
+              Poll Results!
             </Link>
           </li>
         </ul>

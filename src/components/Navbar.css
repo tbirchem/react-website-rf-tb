@@ -1,38 +1,45 @@
 .navbar {
-  background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+  background: linear-gradient(to right, pink, lightskyblue);
   height: 80px;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 1.2rem;
-  position: fixed;
+  justify-content: flex-end;
+  font-size: 1.7rem;
+  position: relative;
+  object-fit: contain;
   top: 0;
   z-index: 100;
   width: 100%;
+  text-align: center;
 }
 
 .navbar-container {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: right;
   height: 80px;
   max-width: 1500px;
 }
 
 .navbar-logo {
   color: #fff;
-  justify-self: start;
   margin-left: 20px;
+  text-align: start;
+  text-align-last: start;
+  alignment: center;
+  text-align-all: start;
   cursor: pointer;
   text-decoration: none;
+  font-family: Chalkboard, serif;
   font-size: 2rem;
-  display: flex;
-  align-items: center;
 }
 
 .fa-typo3 {
   margin-left: 0.5rem;
   font-size: 1.8rem;
+  text-align: center;
+  align-items: center;
+
 }
 
 .nav-menu {
@@ -42,12 +49,14 @@
   list-style: none;
   text-align: center;
   width: 60vw;
-  justify-content: end;
-  margin-right: 2rem;
+  justify-content: center;
+  margin-right: 3rem;
+
 }
 
 .nav-item {
   height: 80px;
+
 }
 
 .nav-links {
@@ -60,7 +69,7 @@
 }
 
 .nav-links:hover {
-  border-bottom: 4px solid #fff;
+  border-bottom: 4px solid hotpink;
   transition: all 0.2s ease-out;
 }
 
@@ -74,11 +83,17 @@
 
 .menu-icon {
   display: none;
+  font-family: Chalkboard, serif;
 }
 
 @media screen and (max-width: 960px) {
   .NavbarItems {
     position: relative;
+  }
+
+  .navbar{
+    justify-content: start;
+    align-items: center;
   }
 
   .nav-menu {
@@ -91,34 +106,38 @@
     left: -100%;
     opacity: 1;
     transition: all 0.5s ease;
+    font-family: Chalkboard, serif;
   }
 
   .nav-menu.active {
-    background: #242222;
+    background: pink;
     left: 0;
     opacity: 1;
     transition: all 0.5s ease;
     z-index: 1;
+    font-family: Chalkboard, serif;
   }
 
   .nav-links {
     text-align: center;
+    color: dodgerblue;
     padding: 2rem;
     width: 100%;
     display: table;
+    font-family: Chalkboard, serif;
   }
 
   .nav-links:hover {
-    background-color: #fff;
-    color: #242424;
+    background-color: lightskyblue;
+    color: hotpink;
     border-radius: 0;
+    font-family: Chalkboard, serif;
   }
 
   .navbar-logo {
-    position: absolute;
-    top: 0;
-    left: 0;
+    position: center;
     transform: translate(25%, 50%);
+    font-family: Chalkboard, serif;
   }
 
   .menu-icon {
@@ -129,16 +148,17 @@
     transform: translate(-100%, 60%);
     font-size: 1.8rem;
     cursor: pointer;
+    font-family: Chalkboard, serif;
   }
 
   .fa-times {
-    color: #fff;
+    color: #ffffff;
     font-size: 2rem;
   }
 
   .nav-links-mobile {
     display: flex;
-    text-align: center;
+    text-align: start;
     margin: 2rem auto;
     border-radius: 4px;
     width: 80%;
@@ -148,11 +168,13 @@
     color: #fff;
     border: 1px solid #fff;
     transition: all 0.3s ease-out;
+    font-family: Chalkboard, serif;
   }
 
   .nav-links-mobile:hover {
     background: #fff;
     color: #242424;
     transition: 250ms;
+    font-family: Chalkboard, serif;
   }
 }
