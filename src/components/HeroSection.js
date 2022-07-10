@@ -8,7 +8,7 @@ import './HeroSection.css';
 function HeroSection() {
   return (
     <div className='hero-container'>
-      <h1>FIND YOUR RING</h1>
+      <h1>WILL IT BE A BOY OR GIRL?!</h1>
       <div className='hero-btns'>
         <Button
           className='btns'
@@ -16,7 +16,7 @@ function HeroSection() {
           buttonSize='btn--small'
           >
           <Link to='/questionnaire'>
-          GET STARTED
+              WATCH LIVE STREAM
           </Link>
         </Button>
       </div>

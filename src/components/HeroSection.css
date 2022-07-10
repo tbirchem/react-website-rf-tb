@@ -4,10 +4,16 @@ video {
   height: 100%;
   position: absolute;
   z-index: -1;
+  font-family: Chalkboard, serif;
+
+}
+
+link {
+  font-family: Chalkboard, serif;
 }
 
 .hero-container {
-  background: url('https://images.unsplash.com/photo-1577947744466-acdebeff32d5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmxhY2slMjBhbmQlMjB3aGl0ZSUyMHdlZGRpbmclMjBwaG90b2dyYXBoeXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=900&q=60') center center/cover
+  background: url('https://images.unsplash.com/photo-1564951434112-64d74cc2a2d7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80') center center/cover
   no-repeat;
   height: 100vh;
   width: 100%;
@@ -17,37 +23,48 @@ video {
   align-items: center;
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
   object-fit: scale-down;
+  font-family: Chalkboard, serif;
 }
 
 .hero-container > h1 {
   color: #fff;
   font-size: 50px;
+  font-family: Chalkboard, serif;
   margin-top: -100px;
 }
 
 .hero-btns {
   margin-top: 32px;
+  font-family: Chalkboard, serif;
+
 }
 
 .hero-btns .btn {
   margin: 6px;
+  font-family: Chalkboard, serif;
+
 }
 
 .fa-play-circle {
   margin-left: 4px;
+  font-family: Chalkboard, serif;
 }
 
 @media screen and (max-width: 960px) {
   .hero-container {
-    background: url('https://images.unsplash.com/photo-1577947744466-acdebeff32d5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmxhY2slMjBhbmQlMjB3aGl0ZSUyMHdlZGRpbmclMjBwaG90b2dyYXBoeXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=900&q=60') /no-repeat;
-    background-position: 30% 60%;
+    background: white url('https://images.unsplash.com/photo-1553356084-58ef4a67b2a7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fHBpbmslMkZibHVlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60') 30% 60%;
+    font-family: Chalkboard, serif;
+
   }
+
 }
 
 @media screen and (max-width: 960px) {
   .hero-container > h1 {
     font-size: 60px;
     margin-top: -150px;
+    font-family: Chalkboard, serif;
+
   }
 }
 
@@ -55,18 +72,24 @@ video {
   .hero-container > h1 {
     font-size: 50px;
     margin-top: -100px;
+    font-family: Chalkboard, serif;
   }
 
   .hero-container > p {
     font-size: 30px;
+    font-family: Chalkboard, serif;
   }
 
   .btn-mobile {
     display: block;
     text-decoration: none;
+    font-family: Chalkboard, serif;
+
   }
 
   .btn {
     width: 100%;
+    font-family: Chalkboard, serif;
+
   }
 }
