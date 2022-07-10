@@ -30,11 +30,6 @@ function Navbar() {
             </Link>
           </li>
           <li className = 'nav-item'>
-            <Link to='/color' className='nav-links' >
-            Leave a note
-            </Link>
-          </li>
-          <li className = 'nav-item'>
             <Link to='/result' className='nav-links'>
               Poll Results!
             </Link>
